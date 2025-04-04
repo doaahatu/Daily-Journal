@@ -63,15 +63,19 @@ open html/home.html  # On Mac
 start html/home.html # On Windows
 
 ## 🎨 Design Highlights
-/* Glassmorphism effect */
+/* Glassmorphism container effect */
 .journal-container {
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
   border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
 }
 
-/* Elegant typography */
+/* Typography styles */
 h1 {
   font-family: 'Playfair Display', serif;
   color: #d48a8e; /* Dusty pink */
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
