@@ -51,18 +51,18 @@ Daily-Journal/
 - Git (optional)
 
 ### Installation
-1. Clone the repository:
-```bash
+#### 1. Clone the repository:
+
 git clone https://github.com/doaahatu/Daily-Journal.git
 
-Open in browser:
+#### 2. Open in browser:
 
 cd Daily-Journal
 open html/home.html  # On Mac
 # or
 start html/home.html # On Windows
 
-🎨 Design Highlights
+## 🎨 Design Highlights
 /* Glassmorphism effect */
 .journal-container {
   background: rgba(255, 255, 255, 0.85);
