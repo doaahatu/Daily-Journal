@@ -59,7 +59,7 @@ git clone https://github.com/doaahatu/Daily-Journal.git
 
 cd Daily-Journal
 open html/home.html  # On Mac
-# or
+## or
 start html/home.html # On Windows
 
 ## 🎨 Design Highlights
