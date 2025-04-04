@@ -39,9 +39,9 @@ Daily-Journal/
 │ └── app.js # All journal functionality
 ├── images/
 │ ├── pink.jpg # Background image
-│ └── home.png # App screenshot
-│ └── journal.png # App screenshot
-└── README.md # This file
+│ ├── home.png # Homepage screenshot
+│ └── journal.png # Journal screenshot
+└── README.md # Project documentation
 
 
 ## 🏁 Getting Started
