@@ -52,9 +52,9 @@ Daily-Journal/
 
 ### Installation
 #### 1. Clone the repository:
-
+```bash
 git clone https://github.com/doaahatu/Daily-Journal.git
-
+```
 #### 2. Open in browser:
 
 cd Daily-Journal
@@ -63,6 +63,7 @@ open html/home.html  # On Mac
 start html/home.html # On Windows
 
 ## 🎨 Design Highlights
+```css
 /* Glassmorphism container effect */
 .journal-container {
   background: rgba(255, 255, 255, 0.85);
@@ -79,3 +80,4 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.5px;
 }
+```
