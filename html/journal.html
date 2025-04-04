@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Daily Journal</title>
+    <link rel="stylesheet" href="../css/journal.css">
+</head>
+<body>
+    <div class="journal-container">
+        <header>
+            <h1>My Daily Journal</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search entries...">
+                <button id="searchBtn">Search</button>
+            </div>
+        </header>
+        
+        <main>
+            <button id="addEntryBtn" class="add-entry-btn">+ Add New Entry</button>
+            
+            <div id="entriesContainer">
+                <!-- Entries will be dynamically added here -->
+            </div>
+            
+            <!-- Entry Modal -->
+            <div id="entryModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h2 id="modalTitle">New Entry</h2>
+                    <form id="journalForm">
+                        <input type="text" id="entryTitle" placeholder="Title" required>
+                        <textarea id="entryContent" placeholder="Write your thoughts here..." required></textarea>
+                        <button type="submit" id="saveEntryBtn">Save Entry</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="../js/app.js"></script>
+</body>
+</html>

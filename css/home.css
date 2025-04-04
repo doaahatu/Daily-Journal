@@ -1,0 +1,63 @@
+.home-container {
+    background-image: url('../images/aesthetic.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Lighter overlay for better text visibility */
+}
+
+.overlay {
+    text-align: center;
+    color: white;
+    z-index: 1;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.overlay h1 {
+    font-family: "Apple Chancery", "Brush Script MT", cursive;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+.overlay p {
+    font-family: "Songti SC", "SimSun", "宋体", serif;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.start-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f193b2; /* Pink button to match theme */
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    border: 2px solid white;
+    font-family: "Songti SC", "SimSun", "宋体", serif;
+}
+
+.start-btn:hover {
+    background-color: #e05584;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
